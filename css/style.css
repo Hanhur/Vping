@@ -46,8 +46,7 @@ body
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
-    /* color: var(--white);  */
+    line-height: 1.7;
 }
 
 @font-face 
@@ -75,7 +74,72 @@ body
 
 .container 
 {
-    max-width: 1048px;
+    max-width: 1220px;
     padding: 0 10px;
     margin: 0 auto;
 }
+.container-wrapper
+{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+/* ===================================== Header ===================================== */
+.header
+{
+    background-image: url(../img/rectangle-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo
+{
+    margin-right: 250px;
+}
+
+.header_list
+{
+    display: flex;
+    gap: 0 50px;
+}
+
+.header_login
+{
+    display: flex;
+    gap: 0 30px;
+}
+.header_logo,
+.header_list,
+.header_login
+{
+    margin-top: 36px;
+    text-align: center;
+}
+
+.header_link,
+.header_login-link
+{
+    color: var(--white);
+}
+
+.header_login-list__signup
+{
+    background-color: var(--accent-02);
+    padding: 12px 30px;
+    border-radius: 21px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.header_login-signup
+{
+    color: var(--dark);
+}
+
+/* ================================= Access-content ============================== */
