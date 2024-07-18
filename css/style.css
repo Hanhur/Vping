@@ -88,15 +88,30 @@ body
 {
     background-image: url(../img/rectangle-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top bottom;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+    position: relative;
 }
 
 .nav
 {
     display: flex;
     justify-content: space-between;
+}
+
+.access-content::after
+{
+    content: '';
+    position: absolute;
+    top: -300px;
+    right: 920px;
+    left: 0;
+    bottom: 0;
+    background-image: url(../img/ellipse-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .header_logo
 {
@@ -131,7 +146,7 @@ body
 .header_login-list__signup
 {
     background-color: var(--accent-02);
-    padding: 12px 30px;
+    padding: 10px 35px;
     border-radius: 21px;
     margin-top: -10px;
     cursor: pointer;
@@ -139,7 +154,58 @@ body
 
 .header_login-signup
 {
+    font-weight: 600;
     color: var(--dark);
 }
 
 /* ================================= Access-content ============================== */
+.access-content
+{
+    margin-top: 150px;
+}
+.access-content_title
+{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.2;
+    color: var(--white);
+    width: 502px;
+    margin-bottom: 30px;
+}
+
+.access-content_text
+{
+    color: var(--white);
+    width: 443px;
+    margin-bottom: 30px;
+}
+
+.access-content_price
+{
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+.access-content_price span
+{
+    color: var(--accent-02);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.access-content_btn
+{
+    text-align: center;
+    font-weight: 600;
+    color: var(--dark);
+    background-color: var(--accent-02);
+    width: 163px;
+    height: 44px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.access-content_days
+{
+    color: var(--white);
+}
