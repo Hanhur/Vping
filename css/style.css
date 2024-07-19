@@ -340,7 +340,6 @@ body
 .save-popular,
 .save-basic
 {
-    border: 1px solid red;
     padding: 50px 30px;
     border-radius: 20px;
     width: 335px;
@@ -365,16 +364,34 @@ body
     background-color: var(--secondary-shade-1);
 }
 
+.premium_btn:hover
+{
+    color: var(--white);
+    background-color: var(--secondary);
+}
+
 .popular_btn
 {
     color: var(--primary);
     background-color: var(--primary-shade-1);
 }
 
+.popular_btn:hover
+{
+    color: var(--white);
+    background-color: var(--primary);
+}
+
 .basic_btn
 {
     color: var(--accent-01);
     background-color: var(--accent-01-shade-1);
+}
+
+.basic_btn:hover
+{
+    color: var(--white);
+    background-color: var(--accent-01);
 }
 
 .premium_years,
@@ -455,11 +472,6 @@ body
     gap: 0 20px;
 }
 
-.premium-item_img
-{
-    color: var(--accent-01);
-}
-
 .premium-item_text,
 .popular-item_text,
 .basic-item_text
@@ -481,4 +493,20 @@ body
     border-radius: 10px;
     color: var(--primary);
     border: 1px solid var(--primary);
+}
+
+.save-premium:hover,
+.save-popular:hover,
+.save-basic:hover
+{
+    border: 1px solid var(--primary);
+    background: linear-gradient(360deg, rgba(1, 189, 170, 0.34) -295.35%, rgba(39, 190, 175, 0) 84.19%);
+}
+
+.premium-submit_btn:hover,
+.popular-submit_btn:hover,
+.basic-submit_btn:hover
+{
+    color: var(--white);
+    background-color: var(--primary);
 }
