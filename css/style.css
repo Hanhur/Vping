@@ -340,10 +340,6 @@ body
 .save-popular,
 .save-basic
 {
-<<<<<<< HEAD
-=======
-    border: 1px solid red;
->>>>>>> 3c5c69093328fc1a311405e744728649351820f4
     padding: 50px 30px;
     border-radius: 20px;
     width: 335px;
@@ -368,45 +364,36 @@ body
     background-color: var(--secondary-shade-1);
 }
 
-<<<<<<< HEAD
 .premium_btn:hover
 {
     color: var(--white);
     background-color: var(--secondary);
 }
 
-=======
->>>>>>> 3c5c69093328fc1a311405e744728649351820f4
 .popular_btn
 {
     color: var(--primary);
     background-color: var(--primary-shade-1);
 }
 
-<<<<<<< HEAD
 .popular_btn:hover
 {
     color: var(--white);
     background-color: var(--primary);
 }
 
-=======
->>>>>>> 3c5c69093328fc1a311405e744728649351820f4
 .basic_btn
 {
     color: var(--accent-01);
     background-color: var(--accent-01-shade-1);
 }
 
-<<<<<<< HEAD
 .basic_btn:hover
 {
     color: var(--white);
     background-color: var(--accent-01);
 }
 
-=======
->>>>>>> 3c5c69093328fc1a311405e744728649351820f4
 .premium_years,
 .popular_years,
 .basic_years
@@ -485,14 +472,6 @@ body
     gap: 0 20px;
 }
 
-<<<<<<< HEAD
-=======
-.premium-item_img
-{
-    color: var(--accent-01);
-}
-
->>>>>>> 3c5c69093328fc1a311405e744728649351820f4
 .premium-item_text,
 .popular-item_text,
 .basic-item_text
@@ -514,7 +493,6 @@ body
     border-radius: 10px;
     color: var(--primary);
     border: 1px solid var(--primary);
-<<<<<<< HEAD
 }
 
 .save-premium:hover,
@@ -531,6 +509,4 @@ body
 {
     color: var(--white);
     background-color: var(--primary);
-=======
->>>>>>> 3c5c69093328fc1a311405e744728649351820f4
 }
