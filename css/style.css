@@ -513,29 +513,11 @@ body
 }
 
 /* ====================================================================== */
-.section-premium
-{
-    position: relative;
-}
 .section-premium_content
 {
     padding: 50px 30px;
     box-shadow: 0px 0px 67px 3px #00000014;
-}
-
-.premium-contents::before
-{
-    content: '';
-    position: absolute;
-    top: -175px;
-    left: 875px;
-    background-image: url(../img/ellipse-14.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 711px;
-    height: 830px;
-    transform: rotate(12deg);
+    margin-bottom: 250px;
 }
 
 .section-premium_content-title
@@ -571,4 +553,78 @@ body
     color: var(--grey-2);
     text-align: center;
     width: 223px;
+}
+/* ====================================================================================== */
+.section-vpn_title
+{
+    margin-bottom: 30px;
+}
+
+.section-vpn_text
+{
+    color: var(--grey-1);
+    margin-bottom: 50px;
+}
+
+.section-vpn_messeg-athor,
+.section-vpn_messeg-box
+{
+    display: flex;
+}
+
+.section-vpn_messeg
+{
+    display: flex;
+    align-items: center;
+}
+
+.section-vpn_messeg-content
+{
+    width: 643px;
+    height: 369px;
+    background-color: var(--secondary);
+    border-radius: 0 20px 20px 0;
+    padding: 30px 30px 30px 200px;
+    margin-right: 100px;
+}
+
+.section-vpn_messeg-text
+{
+    width: 415px;
+    line-height: 2.0;
+    color: var(--white);
+    margin-bottom: 50px;
+}
+
+.section-vpn_messeg-img
+{
+    border-radius: 50px;
+    background-color: var(--accent-02);
+    margin-right: 20px;
+}
+
+.section-vpn_messeg-rating
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-vpn_messeg-name
+{
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+
+.section-vpn_messeg-date
+{
+    font-size: 13px;
+    color: var(--white);
+}
+
+.section-vpn_messeg-box
+{
+    display: flex;
+    gap: 0 20px;
 }
