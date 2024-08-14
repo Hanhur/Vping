@@ -683,6 +683,7 @@ body
     display: flex;
     gap: 0 100px;
     padding-top: 400px;
+    padding-bottom: 200px;
 }
 .footer-get_trustpilot
 {
@@ -730,4 +731,101 @@ body
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+.footer
+{
+    position: relative;
+}
+.footer-get::after
+{
+    content: '';
+    position: absolute;
+    top: -520px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(../img/vector-3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer-get_complete::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: -670px;
+    background-image: url(../img/vector-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer-get-trustpilot::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(../img/vector-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.footer-get_img
+{
+    z-index: 1;
+}
+.footer-logo::after
+{
+    content: '';
+    position: absolute;
+    top: 740px;
+    right: 700px;
+    left: -380px;
+    bottom: 0;
+    background-image: url(../img/ellipse-15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+}
+.footer-logo_img
+{
+    width: 128px;
+    margin-bottom: 50px;
+}
+.footer-logo_text
+{
+    color: var(--white);
+    width: 365px;
+    margin-right: 150px;
+}
+.product,
+.company,
+.connect
+{
+    display: flex;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--white);
+    margin-bottom: 80px;
+}
+.footer-product_link,
+.footer-company_link
+{
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--white);
+    margin-right: 50px;
+}
+.footer-product_item,
+.footer-company_item
+{
+    margin-bottom: 30px;
+}
+.footer-social_list
+{
+    display: flex;
+    gap: 0 20px;
 }
